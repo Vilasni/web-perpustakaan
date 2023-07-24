@@ -52,3 +52,13 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - json (enabled by default - don't turn it off)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+
+## Tutorial Penggunaan Perpustakaan Web SI Unmer Malang
+1. Masuk ke menu login lalu masukkan username dan password setelah itu klik login
+2. Berikutnya masuk di dashboard terdapat menu peminjaman dan menu masters terdapat pegawai dan menu mahasiswa terdapat buku selanjutnya logout.
+3. Pada menu mahasiswa klik tambah mahasiswa kemudian masukkan nama lengkap, kelas, Nim, alamat, jenis kelamin lalu klik simpan
+4. Pada menu buku klik tambah buku kemudian masukkan kode buku, tahun terbit, judul buku, pengarang dan penerbit lalu klik simpan
+5. Pada menu pegawai klik tambah pegawai kemudian masukkan nama lengkap, username dan password lalu klik simpan
+6. Lalu pada menu peminjaman klik tambah peminjaman buku kemudian masukkan nama mahasiswa, pilih buku yang akan dipinjam setelah itu masukkan keterangan lalu klik simpan.
+7. Setelah semuanya selesai pada bagian dashboard jumlah peminjaman, jumlah mahasiswa, dan jumlah buku akan bertambah dan akan muncul peminjaman terbaru.
+8. Terakhir klik pada menu logout untuk keluar.
